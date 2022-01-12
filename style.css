@@ -10,7 +10,9 @@
     padding: 0;
     border: none;
     background: none;
-    height: 60px;
+    height: 70px;
+    width: 150px;
+    border-radius: 15px;
 }
 
 .top-menu__box:hover {
@@ -24,12 +26,13 @@
     justify-content: space-between;
     align-items: center;
     padding-left: 40px;
-    height: 100px;
+    height: 130px;
 }
 
 .top-menu__logo {
     width: 70px;
     height: 70px;
+    margin-left: 10%;
 }
 
 .options-menu {
@@ -42,8 +45,9 @@
 }
 .top-menu__box--orange-border {
     border: 5px solid orange;
-    border-radius: 30%;
-    padding: 25px;
+    border-radius: 0 15px 15px 15px;
+    height: 60px;
+    width: 150px;
 }
 .card {
     padding: 7%;
@@ -53,6 +57,7 @@
     color: orange;
     font-size: 1.5rem;
     display: inline;
+    font-weight: bold;
 }
 .card__big-text {
     font-size: 3rem;
