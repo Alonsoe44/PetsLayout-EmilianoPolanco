@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-size: 25px;
+    font-family: "Nunito";
 }
 
 .top-menu__box {
@@ -43,4 +44,48 @@
     border: 5px solid orange;
     border-radius: 30%;
     padding: 25px;
+}
+.card {
+    padding: 7%;
+}
+.card__tittle {
+    margin-left: 10%;
+    color: orange;
+    font-size: 1.5rem;
+    display: inline;
+}
+.card__big-text {
+    font-size: 3rem;
+    margin-left: 10%;
+}
+.card__carrousel {
+    display: flex;
+    justify-content: space-around;
+}
+.card__orange-button {
+    height: 50px;
+    width: 160px;
+    padding: 0;
+    border: none;
+    background: none;
+    background-color: orange;
+    border-radius: 0px 15px 15px 15px;
+    align-self: flex-end;
+    margin-right: 100px;
+    color: white;
+    font-family: "Nunito" bold;
+}
+.card__image {
+    height: 500px;
+    width: 20%;
+    object-fit: cover;
+    border-radius: 15px;
+    align-self: flex-end;
+}
+.top-part-card {
+    background-color: white;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
