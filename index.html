@@ -6,6 +6,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Pet Home</title>
         <link rel="stylesheet" href="style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&display=swap"
+            rel="stylesheet"
+        />
     </head>
     <body>
         <header class="top-menu">
@@ -20,16 +26,28 @@
             </div>
         </header>
         <main class="card">
-            <h1 class="card__title">PET ACTIVITIES</h1>
-            <h2 class="card__big-text">Take a closer look</h2>
-            <button class="card__orange-button">VIEW ALL</button>
-            <img class="card__image" src="dogBitePig.jpg" alt="dog bites toy" />
-            <img
-                class="card__image"
-                src="catUnderBlancket.jpg"
-                alt="cat under blanket"
-            />
-            <img class="card__image" src="dogRunning.jpg" alt="dog running" />
+            <div class="top-part-card">
+                <h1 class="card__tittle">PET ACTIVITIES</h1>
+                <h2 class="card__big-text">Take a closer look</h2>
+                <button class="card__orange-button">VIEW ALL</button>
+            </div>
+            <div class="card__carrousel">
+                <img
+                    class="card__image"
+                    src="dogBitePig.jpg"
+                    alt="dog bites toy"
+                />
+                <img
+                    class="card__image"
+                    src="catUnderBlancket.jpg"
+                    alt="cat under blanket"
+                />
+                <img
+                    class="card__image"
+                    src="dogRunning.jpg"
+                    alt="dog running"
+                />
+            </div>
         </main>
     </body>
 </html>
