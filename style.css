@@ -109,6 +109,8 @@
 
     .top-menu__logo {
         margin-left: 15px;
+				width: 30px;
+				height: 30px;
     }
 
     .top-menu__box {
