@@ -94,3 +94,36 @@
     flex-direction: column;
     justify-content: center;
 }
+@media only screen and (max-width: 960px) {
+    .card__carrousel {
+        display: flex;
+        flex-direction: column;
+    }
+    .card__image {
+        width: 90%;
+        height: 300px;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .top-menu__logo {
+        margin-left: 15px;
+    }
+
+    .top-menu__box {
+        display: none;
+    }
+    .card__tittle {
+        font-size: 0.8rem;
+        align-self: center;
+    }
+    .card__big-text {
+        font-size: 1.4rem;
+        align-self: center;
+    }
+    .card__orange-button {
+        margin-top: 50px;
+        align-self: center;
+    }
+}
